@@ -1,0 +1,16 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "minecraft:item/generated",
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [
+        0,
+        -0.25,
+        1
+      ]
+    }
+  },
+  "textures": {
+    "1": "bluearchivemod:item/archive_menu"
+  }
+}

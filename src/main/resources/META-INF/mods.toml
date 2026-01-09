@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="bluearchivemod"
+version="1.0.0"
+displayName="Blue Archive Mod"
+authors="tera"
+description='''
+Blue Archive Mod
+'''
+
+[[dependencies.bluearchivemod]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.bluearchivemod]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="NONE"
+side="BOTH"
+
+[[mixins]]
+config="mixins.bluearchivemod.json"
